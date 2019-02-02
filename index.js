@@ -44,12 +44,3 @@ function preserveDecimal (n){
 function preserveDecimal (n){
   return preserveDecimal(`n`)
 }
-
-
-
-
-
-
-
-
-
