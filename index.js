@@ -5,7 +5,8 @@ function add(a,b) {
 }
 
 function subtract(a,b){
-  return b-a
+  x=b-a
+  return x
 }
 
 function multiply (a,b){
