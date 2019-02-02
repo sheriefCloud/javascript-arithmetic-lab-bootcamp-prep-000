@@ -5,8 +5,8 @@ function add(a,b) {
 }
 
 function subtract(a,b){
-  x=b-a
-  return x
+  return b - a
+  
 }
 
 function multiply (a,b){
@@ -18,7 +18,7 @@ function divide (a,b){
 }
 
 function inc(n){
-  n = n++
+  n++
   return n
 }
 
@@ -28,7 +28,8 @@ function dec(n){
 }
 
 function makeInt (n){
-  return parseInt(n)
+  n=parseInt(n)
+  return n
 }
 
 function makeInt (n){
