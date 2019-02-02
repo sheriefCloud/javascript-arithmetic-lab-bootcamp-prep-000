@@ -38,7 +38,7 @@ function makeInt (n){
 
 
 function makeInt (n){
-  n=parseInt(n)
+  n=isNaN(parseInt(n))
   return (`n`)
 }
 
