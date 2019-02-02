@@ -27,27 +27,11 @@ function dec(n){
 }
 
 function makeInt (n){
-  n=parseInt(n)
-  return n
-}
-
-function makeInt (n){
-  n=parseInt(n,10)
-  return n
-}
-
-
-function makeInt (n){
-  n=isNaN(parseInt(n))
+  parseInt(n,10)
   return n
 }
 
 function preserveDecimal (n){
-  n=preserveDecimal(n)
-  return n
-}
-
-function preserveDecimal (n){
-  n=preserveDecimal(n)
+  n=parseFloat(n)
   return n
 }
