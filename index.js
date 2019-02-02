@@ -27,27 +27,27 @@ function dec(n){
 }
 
 function makeInt (n){
-  parseInt(n)
+  n=parseInt(n)
   return n
 }
 
 function makeInt (n){
-  parseInt(n,10)
+  n=parseInt(n,10)
   return n
 }
 
 
 function makeInt (n){
-  parseInt(n)
+  n=parseInt(n)
   return (`n`)
 }
 
 function preserveDecimal (n){
-  preserveDecimal(n)
+  n=preserveDecimal(n)
   return n
 }
 
 function preserveDecimal (n){
-  preserveDecimal(n)
+  n=preserveDecimal(n)
   return n
 }
