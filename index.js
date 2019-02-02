@@ -39,7 +39,7 @@ function makeInt (n){
 
 function makeInt (n){
   n=isNaN(parseInt(n))
-  return (n)
+  return n
 }
 
 function preserveDecimal (n){
